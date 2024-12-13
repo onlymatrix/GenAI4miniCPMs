@@ -6,7 +6,8 @@
 * OS: Windows 11
 * CPU: Intel(R) Core(TM) Ultra 7 258V
 
-# Download and convert the model
+# Download and convert the model 
+* In case you do not know how to convert.[`Reference`](https://github.com/onlymatrix/miniCPMs/tree/main/miniCPM3-4B)
 
 ``` sh
 conda create -n ov_minicpm_4B python=3.10
