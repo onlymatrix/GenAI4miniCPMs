@@ -27,7 +27,7 @@ int main(int argc, char* argv[]) try {
     std::string prompt;
     std::string models_path = argv[1];
 
-    std::string device = "CPU";  // GPU, NPU can be used as well
+    std::string device = "GPU";  // GPU, NPU can be used as well
     ov::genai::LLMPipeline pipe(models_path, device);
     //std::string device = "GPU";  // GPU can be used as well
     ov::AnyMap enable_compile_cache;
